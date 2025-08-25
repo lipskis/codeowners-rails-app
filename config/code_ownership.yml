@@ -1,0 +1,8 @@
+owned_globs:
+  - '{app,components,config,frontend,lib,packs,spec}/**/*.{rb,rake,js,jsx,ts,tsx}'
+js_package_paths: []
+unowned_globs:
+  - db/**/*
+  - app/services/some_file1.rb
+  - app/services/some_file2.rb
+  - frontend/javascripts/**/__generated__/**/*
