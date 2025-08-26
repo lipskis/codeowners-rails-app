@@ -65,3 +65,4 @@ end
 gem "code_ownership"
 gem "appsignal", path: "/Users/martin/Code/appsignal/appsignal-ruby"
 gem "pry"
+gem "packwerk"

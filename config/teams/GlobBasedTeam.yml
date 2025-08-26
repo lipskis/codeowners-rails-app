@@ -1,0 +1,3 @@
+name: GlobBasedTeam
+owned_globs:
+  - app/controllers/glob_based/**/**

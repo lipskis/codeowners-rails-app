@@ -12,7 +12,11 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
   #
-  root "test#index"
-  get "products" => "products#index"
-  get "units" => "inventory/units#index"
+  root "ownership#index"
+
+  get "annotation" => "ownership#index"
+  get "directory" => "directory_based/ownership#index"
+  get "package" => "package_based/ownership#index"
+  get "glob" => "glob_based/ownership#index"
+
 end
