@@ -18,5 +18,4 @@ Rails.application.routes.draw do
   get "directory" => "directory_based/ownership#index"
   get "package" => "package_based/ownership#index"
   get "glob" => "glob_based/ownership#index"
-
 end
