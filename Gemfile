@@ -63,5 +63,5 @@ group :test do
 end
 
 gem "code_ownership"
-gem "appsignal", git: "https://github.com/lipskis/appsignal-ruby.git", branch: "code-ownership-integration" 
+gem "appsignal", git: "https://github.com/lipskis/appsignal-ruby.git", branch: "code-ownership-integration"
 gem "packwerk"
