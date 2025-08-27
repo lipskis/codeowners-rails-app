@@ -1,5 +1,7 @@
-PATH
-  remote: /Users/martin/Code/appsignal/appsignal-ruby
+GIT
+  remote: https://github.com/lipskis/appsignal-ruby.git
+  revision: aa7c914c7769a19d7daa9ab30bd02ef583e495c8
+  branch: code-ownership-integration
   specs:
     appsignal (4.6.0)
       logger
@@ -116,7 +118,6 @@ GEM
       sorbet-runtime (>= 0.5.11249)
     code_teams (1.1.0)
       sorbet-runtime
-    coderay (1.1.3)
     concurrent-ruby (1.3.5)
     connection_pool (2.5.3)
     constant_resolver (0.3.0)
@@ -176,7 +177,6 @@ GEM
       net-smtp
     marcel (1.0.4)
     matrix (0.4.3)
-    method_source (1.1.0)
     mini_mime (1.1.5)
     minitest (5.25.5)
     msgpack (1.8.0)
@@ -237,9 +237,6 @@ GEM
       actionpack (>= 7.0.0)
       activesupport (>= 7.0.0)
       rack
-    pry (0.15.2)
-      coderay (~> 1.1)
-      method_source (~> 1.0)
     psych (5.2.6)
       date
       stringio
@@ -422,7 +419,6 @@ DEPENDENCIES
   kamal
   packwerk
   propshaft
-  pry
   puma (>= 5.0)
   rails (~> 8.0.2, >= 8.0.2.1)
   rubocop-rails-omakase
