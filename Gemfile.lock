@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/lipskis/appsignal-ruby.git
-  revision: aa7c914c7769a19d7daa9ab30bd02ef583e495c8
+  revision: 098f21bacba2ca2d2e63d9549d8841b48cf383f1
   branch: code-ownership-integration
   specs:
-    appsignal (4.6.0)
+    appsignal (4.7.0)
       logger
       rack (>= 2.0.0)
 
@@ -245,7 +245,7 @@ GEM
       nio4r (~> 2.0)
     raabro (1.4.0)
     racc (1.8.1)
-    rack (3.2.0)
+    rack (3.2.1)
     rack-session (2.1.1)
       base64 (>= 0.1.0)
       rack (>= 3.0.0)
